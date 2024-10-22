@@ -1,0 +1,129 @@
+body{
+display: inline;
+}
+.navbar{
+overflow:hidden;
+background-color: #333;
+color: white;
+}
+nav a{
+color: white;
+text-decoration: none;
+float: right;
+padding: 16px 16px;
+font-size: larger;
+}
+nav a:hover {
+color: orange;
+  }
+.Slide {
+background-color: #3f63d0;
+padding: 100px 100px;
+  }
+h1{
+color: white ;
+text-align: center;
+font-size: 50px;
+  }
+p{
+color: white ;
+text-align: center;
+font-size: 20px;
+  }
+button {
+background-color: rgb(206, 78, 61);
+color: white;
+padding: 20px ;
+border: none;
+margin: 0 auto;
+display: block;
+animation: translate 0.9s ease;
+
+}
+button:hover {
+    background-color: darkred;
+    color: white;
+}
+.infocard1 {
+    background-color: #ecebeb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+    transition: 500ms linear;
+}
+.infocard1:hover {
+    transform: scale(1.1);
+}
+h1.dd {
+    color: black;
+    font-size: 30px;
+}
+p.ee{
+    color: gray;
+    font-size: medium;
+}
+.infocard2 {
+    background-color: #ecebeb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+    transition: 500ms linear;
+}
+.infocard2:hover {
+    transform: scale(1.1);
+}
+h1.aa {
+    color: black;
+    font-size: 30px;
+}
+p.xx{
+    color: gray;
+    font-size: medium;
+}
+.infocard3 {
+    background-color: #ecebeb;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+    transition: 500ms linear;
+}
+.infocard3:hover {
+    transform: scale(1.1);
+}
+h1.tt{
+    color: black;
+    font-size: 30px;
+}
+p.ff{
+    color: gray;
+    font-size: medium;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    animation: scale 1.4s ease;
+}
+@keyframes translate {
+    0% {
+        transform: translateY(100px)
+    }
+    100%{
+        transform:translateY(0)
+    }
+}
+@keyframes scale {
+    0%{
+        transform: scale(50%);
+    }
+    100% {
+        transform: scale(100%);
+    }
+}
+
+
